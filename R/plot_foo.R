@@ -7,5 +7,5 @@
 #' @method plot foo
 #' @export
 plot.foo <- function(x, ...) {
-  plot(1:10)
+  graphics::plot(1:10)
 }
