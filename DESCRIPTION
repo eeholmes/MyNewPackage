@@ -8,7 +8,9 @@ Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 Depends: R (>= 3.4.1), ggplot2
 Imports: forecast
-License: What license is it under?
+Suggests: knitr, rmarkdown
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr

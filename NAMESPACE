@@ -1,1 +1,6 @@
 exportPattern("^[[:alpha:]]+")
+
+import("ggplot2")
+
+S3method(print,foo)
+S3method(plot,foo)
