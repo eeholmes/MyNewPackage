@@ -7,5 +7,5 @@
 #' @method print foo
 #' @export
 print.foo <- function(x, ...) {
-  cat("Hello there")
+  cat("Hello there\n")
 }
