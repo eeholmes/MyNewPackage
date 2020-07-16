@@ -7,5 +7,4 @@
 #' @export
 hello <- function() {
   print("Hello, world! This is better.\n")
-  print("This is better.\n")
 }
