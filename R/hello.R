@@ -6,6 +6,6 @@
 #' hello()
 #' @export
 hello <- function() {
-  print("Hello, world!\n")
+  print("Hello, world! Try now!\n")
   print("This is better.\n")
 }
