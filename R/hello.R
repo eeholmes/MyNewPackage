@@ -6,9 +6,5 @@
 #' hello()
 #' @export
 hello <- function() {
-<<<<<<< HEAD
-  print("Hello, world! This is a great function.")
-=======
-  print("Hello, world! This is not an interesting function.")
->>>>>>> 8379385b51a49627adf580b66aa589bd5810b5f0
+  print("Hello, world! This is an ok function.")
 }
