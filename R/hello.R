@@ -6,5 +6,5 @@
 #' hello()
 #' @export
 hello <- function() {
-  print("HELLO WORLD. hello branch. change two.\n")
+  print("HELLO WORLD.\n")
 }
