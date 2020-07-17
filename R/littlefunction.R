@@ -12,7 +12,7 @@
 #' @examples
 #' littleforecast(WWW2)
 #' @export
-littleforecast <- function(data, nyears=100){
+littleforecast <- function(data, nyears=1){
   fit <- forecast::auto.arima(data)
   fc <- forecast::forecast(fit, h = nyears)
   ggplot2::autoplot(fc)
